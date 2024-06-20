@@ -5,12 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStorage.Application", "IStorage.Application\IStorage.Application.csproj", "{DFE7F960-C799-47A9-B476-0A8479B96610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStorage.Infra", "IStorage.Infra\IStorage.Infra.csproj", "{B6C80DB4-731C-4510-B79C-ED3AB97FB4D3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStorage.IoC", "IStorage.IoC\IStorage.IoC.csproj", "{42FA8905-85AF-4B89-B3C0-DAA2DF2B2CC9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStorage.Model", "IStorage.Model\IStorage.Model.csproj", "{66BE017A-7E27-41C7-9028-3BC987FD3E72}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStorage.WebAPI", "IStorage.WebAPI\IStorage.WebAPI.csproj", "{EB1D3696-2F0A-4887-A6C5-D7ADEA0531EB}"
 EndProject
 Global
@@ -26,18 +20,6 @@ Global
 		{DFE7F960-C799-47A9-B476-0A8479B96610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE7F960-C799-47A9-B476-0A8479B96610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE7F960-C799-47A9-B476-0A8479B96610}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6C80DB4-731C-4510-B79C-ED3AB97FB4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6C80DB4-731C-4510-B79C-ED3AB97FB4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6C80DB4-731C-4510-B79C-ED3AB97FB4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6C80DB4-731C-4510-B79C-ED3AB97FB4D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{42FA8905-85AF-4B89-B3C0-DAA2DF2B2CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42FA8905-85AF-4B89-B3C0-DAA2DF2B2CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42FA8905-85AF-4B89-B3C0-DAA2DF2B2CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42FA8905-85AF-4B89-B3C0-DAA2DF2B2CC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66BE017A-7E27-41C7-9028-3BC987FD3E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66BE017A-7E27-41C7-9028-3BC987FD3E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66BE017A-7E27-41C7-9028-3BC987FD3E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66BE017A-7E27-41C7-9028-3BC987FD3E72}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EB1D3696-2F0A-4887-A6C5-D7ADEA0531EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB1D3696-2F0A-4887-A6C5-D7ADEA0531EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB1D3696-2F0A-4887-A6C5-D7ADEA0531EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
