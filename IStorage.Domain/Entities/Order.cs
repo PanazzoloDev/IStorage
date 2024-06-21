@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using IStorage.Domain.Enums;
 
 namespace IStorage.Domain.Entities
 {
@@ -34,6 +35,6 @@ namespace IStorage.Domain.Entities
         public DateTime? Deadline { get; set; }
 
         [Required]
-        public int Status { get; set; }
+        public OrderStatusEnum Status { get; set; }
     }
 }
