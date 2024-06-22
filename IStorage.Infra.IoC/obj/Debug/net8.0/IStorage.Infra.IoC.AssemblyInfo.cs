@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IStorage.Infra.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e893c59b0a1df971603a06ae09eab20470a129f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c2892886ddd4466748884d213eee2cdc9e0adc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("IStorage.Infra.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IStorage.Infra.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

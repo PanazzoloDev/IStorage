@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IStorage.WebAPI.props" />
+</Project>
