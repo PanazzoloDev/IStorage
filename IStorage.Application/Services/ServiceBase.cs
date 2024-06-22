@@ -21,7 +21,7 @@ namespace IStorage.Application.Services
         public ServiceBase(
             IRepositoryBase<Entity> repository,
             IMapper mapper
-        //IUnityOfWork uow,
+            //IUnityOfWork uow,
         )
         {
             _repo = repository;
