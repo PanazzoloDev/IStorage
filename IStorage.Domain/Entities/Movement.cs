@@ -7,30 +7,37 @@ namespace IStorage.Domain.Entities
     public class Movement
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
-        public long MaterialId { get; set; }
+        [Column("InsumoId")]
+        public long SupplyId { get; set; }
 
         [Required]
-        [Column(TypeName = "float")]
+        [Column("Quantidade")]
         public double Quantity { get; set; }
 
         [Required]
         [StringLength(1)]
+        [Column("Tipo")]
         public string Type { get; set; }
 
-        public long? OriginWarehouseId { get; set; }
+        [Column("AlmoxOrigemId")]
+        public long? SourceWarehouseId { get; set; }
 
+        [Column("AlmoxDestinoId")]
         public long? DestinationWarehouseId { get; set; }
 
         [Required]
-        [Column(TypeName = "text")]
-        public string Notes { get; set; }
+        [Column("Observacoes", TypeName = "text")]
+        public string Observations { get; set; }
 
         [Required]
+        [Column("CriadoEm")]
         public DateTime CreatedAt { get; set; }
 
+        [Column("PedidoId")]
         public long? OrderId { get; set; }
     }
 }

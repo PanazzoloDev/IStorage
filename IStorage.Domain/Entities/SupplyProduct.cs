@@ -4,15 +4,18 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace IStorage.Domain.Entities
 {
     [Table("InsumosProdutos")]
-    public class MaterialProduct
+    public class SupplyProduct
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
-        public long MaterialId { get; set; }
+        [Column("InsumoId")]
+        public long SupplyId { get; set; }
 
         [Required]
+        [Column("ProdutoId")]
         public long ProductId { get; set; }
     }
 }

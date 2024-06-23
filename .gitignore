@@ -12,10 +12,17 @@
 *.vsix
 
 # Ignorar todas as pastas bin e obj
-**/bin
-**/obj
+**/bin/*
+**/obj/*
+**/Debug/*
+**/Release/*
 *.dll
 *.cache
 *.pdb
 *.editorconfig
 *.exe
+IStorage.Application/obj/Debug/net8.0/IStorage.Application.sourcelink.json
+IStorage.Domain/obj/Debug/net8.0/IStorage.Domain.sourcelink.json
+IStorage.Infra.Data/obj/Debug/net8.0/IStorage.Infra.Data.sourcelink.json
+IStorage.Infra.IoC/obj/Debug/net8.0/IStorage.Infra.IoC.sourcelink.json
+IStorage.WebAPI/obj/Debug/net8.0/IStorage.WebAPI.sourcelink.json

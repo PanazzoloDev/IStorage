@@ -3,32 +3,35 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IStorage.Domain.Entities
 {
-    [Table("Almoxarifados")]
-    public class Warehouse
+    [Table("Insumos")]
+    public class Supply
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(100)]
         [Column("Descricao")]
         public string Description { get; set; }
 
         [Required]
-        [Column("Codigo")]
-        public int Code { get; set; }
-
-        [Required]
-        [Column("EstoqueDisponivel")]
-        public bool AvailableStock { get; set; }
+        [Column("CriadoEm")]
+        public DateTime CreatedAt { get; set; }
 
         [Required]
         [Column("Excluido")]
         public bool Deleted { get; set; }
 
         [Required]
-        [Column("CriadoEm")]
-        public DateTime CreatedAt { get; set; }
+        [StringLength(2)]
+        [Column("UnidadeMedida")]
+        public string UnitMeasure { get; set; }
+
+        [Column("EstoqueSeg")]
+        public double? SecurityInventory { get; set; }
+
+        [Column("LoteMinimo")]
+        public double? MinimumLot { get; set; }
     }
 }

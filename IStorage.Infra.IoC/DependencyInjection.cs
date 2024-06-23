@@ -15,7 +15,7 @@ namespace IStorage.Infra.IoC
         public static IServiceCollection AddInfraestructure(
             this IServiceCollection services,
             IConfiguration config
-        ) 
+        )
         {
             // Contexto
             services.AddDbContext<IStorageDbContext>(options =>
@@ -30,8 +30,8 @@ namespace IStorage.Infra.IoC
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<IInventoryRepository, InventoryRepository>();
-            services.AddScoped<IMaterialRepository, MaterialRepository>();
-            services.AddScoped<IMaterialProductRepository, MaterialProductRepository>();
+            services.AddScoped<ISupplyRepository, SupplyRepository>();
+            services.AddScoped<ISupplyProductRepository, SupplyProductRepository>();
             services.AddScoped<IMovementRepository, MovementRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IProductOrderRepository, ProductOrderRepository>();
@@ -41,8 +41,8 @@ namespace IStorage.Infra.IoC
             // Services
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IInventoryService, InventoryService>();
-            services.AddScoped<IMaterialService, MaterialService>();
-            services.AddScoped<IMaterialProductService, MaterialProductService>();
+            services.AddScoped<ISupplyService, SupplyService>();
+            services.AddScoped<ISupplyProductService, SupplyProductService>();
             services.AddScoped<IMovementService, MovementService>();
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IProductService, ProductService>();

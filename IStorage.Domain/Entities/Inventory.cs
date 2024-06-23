@@ -10,13 +10,15 @@ namespace IStorage.Domain.Entities
         public long Id { get; set; }
 
         [Required]
-        public long MaterialId { get; set; }
+        [Column("InsumoId")]
+        public long SupplyId { get; set; }
 
         [Required]
-        [Column(TypeName = "float")]
+        [Column("Quantidade")]
         public double Quantity { get; set; }
 
         [Required]
+        [Column("AlmoxId")]
         public long WarehouseId { get; set; }
     }
 }

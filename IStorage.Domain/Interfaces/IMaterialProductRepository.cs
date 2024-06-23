@@ -2,8 +2,8 @@ using IStorage.Domain.Entities;
 
 namespace IStorage.Domain.Interfaces
 {
-    public interface IMaterialProductRepository : IRepositoryBase<MaterialProduct>
+    public interface ISupplyProductRepository : IRepositoryBase<SupplyProduct>
     {
-        
+
     }
 }

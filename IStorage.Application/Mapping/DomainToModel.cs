@@ -22,13 +22,13 @@ namespace IStorage.Application.Mapping
                 CreateMap<Inventory, UpdateInventoryModel>().ReverseMap();
                 CreateMap<Inventory, NewInventoryModel>().ReverseMap();
 
-                CreateMap<Material, ViewMaterialModel>().ReverseMap();
-                CreateMap<Material, UpdateMaterialModel>().ReverseMap();
-                CreateMap<Material, NewMaterialModel>().ReverseMap();
+                CreateMap<Supply, ViewSupplyModel>().ReverseMap();
+                CreateMap<Supply, UpdateSupplyModel>().ReverseMap();
+                CreateMap<Supply, NewSupplyModel>().ReverseMap();
 
-                CreateMap<MaterialProduct, ViewMaterialProductModel>().ReverseMap();
-                CreateMap<MaterialProduct, UpdateMaterialProductModel>().ReverseMap();
-                CreateMap<MaterialProduct, NewMaterialProductModel>().ReverseMap();
+                CreateMap<SupplyProduct, ViewSupplyProductModel>().ReverseMap();
+                CreateMap<SupplyProduct, UpdateSupplyProductModel>().ReverseMap();
+                CreateMap<SupplyProduct, NewSupplyProductModel>().ReverseMap();
 
                 CreateMap<Movement, ViewMovementModel>().ReverseMap();
                 CreateMap<Movement, UpdateMovementModel>().ReverseMap();

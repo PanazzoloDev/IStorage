@@ -3,12 +3,12 @@ using IStorage.Domain.Entities;
 
 namespace IStorage.Application.Interfaces
 {
-    public interface IMaterialService : IServiceBase
+    public interface ISupplyService : IServiceBase
     <
-        Material,
-        ViewMaterialModel,
-        UpdateMaterialModel,
-        NewMaterialModel
+        Supply,
+        ViewSupplyModel,
+        UpdateSupplyModel,
+        NewSupplyModel
     >
     {
 

@@ -6,16 +6,16 @@ using IStorage.Domain.Interfaces;
 
 namespace IStorage.Application.Services
 {
-    public class MaterialService : ServiceBase
+    public class SupplyService : ServiceBase
     <
-        Material,
-        ViewMaterialModel,
-        UpdateMaterialModel,
-        NewMaterialModel
-    >, IMaterialService 
+        Supply,
+        ViewSupplyModel,
+        UpdateSupplyModel,
+        NewSupplyModel
+    >, ISupplyService
     {
-        public MaterialService(
-            IMaterialRepository repository,
+        public SupplyService(
+            ISupplyRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

@@ -7,23 +7,29 @@ namespace IStorage.Domain.Entities
     public class Customer
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
         [StringLength(150)]
+        [Column("Identificacao")]
         public string Identification { get; set; }
 
         [StringLength(50)]
+        [Column("Email")]
         public string Email { get; set; }
 
         [Required]
         [StringLength(11)]
-        public string CellPhone { get; set; }
+        [Column("Celular")]
+        public string Cellphone { get; set; }
 
         [Required]
+        [Column("CriadoEm")]
         public DateTime CreatedAt { get; set; }
 
         [Required]
-        public bool Deleted { get; set; } = false;
+        [Column("Excluido")]
+        public bool Deleted { get; set; }
     }
 }

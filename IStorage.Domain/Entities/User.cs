@@ -7,33 +7,41 @@ namespace IStorage.Domain.Entities
     public class User
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
         [StringLength(50)]
+        [Column("Nome")]
         public string Name { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Username { get; set; }
+        [Column("Login")]
+        public string Login { get; set; }
 
         [Required]
         [StringLength(20)]
+        [Column("Senha")]
         public string Password { get; set; }
 
-        [Column(TypeName = "text")]
+        [Column("Imagem", TypeName = "text")]
         public string Image { get; set; }
 
         [Required]
+        [Column("Codigo")]
         public int Code { get; set; }
 
         [Required]
+        [Column("CriadoEm")]
         public DateTime CreatedAt { get; set; }
 
         [Required]
-        public bool Deleted { get; set; } = false;
+        [Column("Excluido")]
+        public bool Deleted { get; set; }
 
         [Required]
-        public DateTime BirthDate { get; set; }
+        [Column("Nascimento")]
+        public DateTime Birthdate { get; set; }
     }
 }

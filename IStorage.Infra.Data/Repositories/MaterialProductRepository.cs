@@ -4,9 +4,9 @@ using IStorage.Infra.Data.Context;
 
 namespace IStorage.Infra.Data.Repositories
 {
-    public class MaterialProductRepository: BaseRepository<MaterialProduct>, IMaterialProductRepository
+    public class SupplyProductRepository : BaseRepository<SupplyProduct>, ISupplyProductRepository
     {
-        public MaterialProductRepository(IStorageDbContext context) : base(context)
+        public SupplyProductRepository(IStorageDbContext context) : base(context)
         {
         }
     }

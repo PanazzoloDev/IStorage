@@ -8,8 +8,8 @@ namespace IStorage.Infra.Data.Context
         public IStorageDbContext(DbContextOptions<IStorageDbContext> options) : base(options) { }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Inventory> Inventories { get; set; }
-        public DbSet<Material> Materials { get; set; }
-        public DbSet<MaterialProduct> MaterialProducts { get; set; }
+        public DbSet<Supply> Supplys { get; set; }
+        public DbSet<SupplyProduct> SupplyProducts { get; set; }
         public DbSet<Movement> Movements { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }

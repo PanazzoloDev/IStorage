@@ -8,33 +8,41 @@ namespace IStorage.Domain.Entities
     public class Order
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
 
         [Required]
+        [Column("Codigo")]
         public int Code { get; set; }
 
         [Required]
+        [Column("ClienteId")]
         public long CustomerId { get; set; }
 
-        [Column(TypeName = "text")]
-        public string Notes { get; set; }
+        [Column("Observacoes", TypeName = "text")]
+        public string Observations { get; set; }
 
         [Required]
+        [Column("ResponsavelId")]
         public long ResponsibleId { get; set; }
 
         [Required]
-        [Column(TypeName = "float")]
+        [Column("Total")]
         public double Total { get; set; }
 
         [Required]
+        [Column("CriadoEm")]
         public DateTime CreatedAt { get; set; }
 
         [Required]
-        public bool Deleted { get; set; } = false;
+        [Column("Excluido")]
+        public bool Deleted { get; set; }
 
+        [Column("Prazo")]
         public DateTime? Deadline { get; set; }
 
         [Required]
-        public OrderStatusEnum Status { get; set; }
+        [Column("Status")]
+        public int Status { get; set; }
     }
 }

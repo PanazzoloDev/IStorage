@@ -1,16 +1,16 @@
 namespace IStorage.Application.Models
 {
-    public class NewMaterialProductModel
+    public class NewSupplyProductModel
     {
 
     }
 
-    public class ViewMaterialProductModel
+    public class ViewSupplyProductModel
     {
 
     }
 
-    public class UpdateMaterialProductModel
+    public class UpdateSupplyProductModel
     {
 
     }

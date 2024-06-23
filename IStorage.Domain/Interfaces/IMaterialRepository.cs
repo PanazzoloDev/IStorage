@@ -2,7 +2,7 @@ using IStorage.Domain.Entities;
 
 namespace IStorage.Domain.Interfaces
 {
-    public interface IMaterialRepository : IRepositoryBase<Material>
+    public interface ISupplyRepository : IRepositoryBase<Supply>
     {
     }
 }
