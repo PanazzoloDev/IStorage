@@ -1,18 +1,16 @@
 using IStorage.Application.Interfaces;
 using IStorage.Application.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IStorage.WebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-
-public class UsersController : ControllerBase
+public class CustomersController : ControllerBase
 {
-    private readonly IUserService _service;
+    private readonly ICustomerService _service;
 
-    public UsersController(IUserService service)
+    public CustomersController(ICustomerService service)
     {
         _service = service;
     }
@@ -34,13 +32,13 @@ public class UsersController : ControllerBase
 
     [HttpPost]
 
-    public async Task<ActionResult> Create(NewUserModel model)
+    public async Task<ActionResult> Create(NewCustomerModel model)
     {
         return Ok(_service.CreateAsync(model));
     }
 
     [HttpPut]
-    public async Task<ActionResult> Update(UpdateUserModel model)
+    public async Task<ActionResult> Update(UpdateCustomerModel model)
     {
         return Ok(_service.UpdateAsync(model));
     }

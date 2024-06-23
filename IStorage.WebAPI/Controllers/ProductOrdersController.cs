@@ -8,11 +8,11 @@ namespace IStorage.WebAPI.Controllers;
 [ApiController]
 [Route("[controller]")]
 
-public class UsersController : ControllerBase
+public class ProductOrdersController : ControllerBase
 {
-    private readonly IUserService _service;
+    private readonly IProductOrderService _service;
 
-    public UsersController(IUserService service)
+    public ProductOrdersController(IProductOrderService service)
     {
         _service = service;
     }
@@ -34,13 +34,13 @@ public class UsersController : ControllerBase
 
     [HttpPost]
 
-    public async Task<ActionResult> Create(NewUserModel model)
+    public async Task<ActionResult> Create(NewProductOrderModel model)
     {
         return Ok(_service.CreateAsync(model));
     }
 
     [HttpPut]
-    public async Task<ActionResult> Update(UpdateUserModel model)
+    public async Task<ActionResult> Update(UpdateProductOrderModel model)
     {
         return Ok(_service.UpdateAsync(model));
     }

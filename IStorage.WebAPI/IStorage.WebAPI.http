@@ -1,4 +1,4 @@
-@IStorage.WebAPI_HostAddress = http://localhost:5206
+@IStorage.WebAPI_HostAddress = https://localhost:5206
 
 GET {{IStorage.WebAPI_HostAddress}}/weatherforecast/
 Accept: application/json

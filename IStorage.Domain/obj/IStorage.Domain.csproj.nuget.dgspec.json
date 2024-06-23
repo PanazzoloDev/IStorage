@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {}
+    "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
+    "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
         "projectName": "IStorage.Domain",
-        "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
+        "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
         "packagesPath": "C:\\Users\\WesleyPanazzolo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\obj\\",
+        "outputPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WesleyPanazzolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
