@@ -15,7 +15,7 @@ namespace IStorage.Application.Services
     >, ICustomerService
     {
         public CustomerService(
-            IRepositoryBase<Customer> repository,
+            ICustomerRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

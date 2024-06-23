@@ -15,7 +15,7 @@ namespace IStorage.Application.Services
     >, IMovementService
     {
         public MovementService(
-            IRepositoryBase<Movement> repository,
+            IMovementRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

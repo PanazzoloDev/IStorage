@@ -15,7 +15,7 @@ namespace IStorage.Application.Services
     >, IOrderService
     {
         public OrderService(
-            IRepositoryBase<Order> repository,
+            IOrderRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

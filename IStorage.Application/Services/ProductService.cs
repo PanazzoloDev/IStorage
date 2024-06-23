@@ -13,7 +13,7 @@ namespace IStorage.Application.Services
         IProductService
     {
         public ProductService(
-            IRepositoryBase<Product> repository,
+            IProductRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

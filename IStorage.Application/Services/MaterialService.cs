@@ -15,7 +15,7 @@ namespace IStorage.Application.Services
     >, IMaterialService 
     {
         public MaterialService(
-            IRepositoryBase<Material> repository,
+            IMaterialRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

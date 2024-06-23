@@ -15,7 +15,7 @@ namespace IStorage.Application.Services
     >, IUserService 
     {
         public UserService(
-            IRepositoryBase<User> repository,
+            IUserRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

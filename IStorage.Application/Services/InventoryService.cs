@@ -15,7 +15,7 @@ namespace IStorage.Application.Services
     >, IInventoryService 
     {
         public InventoryService(
-            IRepositoryBase<Inventory> repository,
+            IInventoryRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {

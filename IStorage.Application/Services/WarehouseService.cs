@@ -15,7 +15,7 @@ namespace IStorage.Application.Services
     >, IWarehouseService
     {
         public WarehouseService(
-            IRepositoryBase<Warehouse> repository,
+            IWarehouseRepository repository,
             IMapper mapper
         ) : base(repository, mapper)
         {
