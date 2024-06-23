@@ -1,4 +1,5 @@
 using IStorage.Application.Interfaces;
+using IStorage.Application.Mapping;
 using IStorage.Application.Services;
 using IStorage.Domain.Interfaces;
 using IStorage.Infra.Data.Context;
@@ -23,7 +24,7 @@ namespace IStorage.Infra.IoC
             ));
 
             // AutoMapper
-            //services.AddAutoMapper(typeof(DomainToDTOMapping));
+            services.AddAutoMapper(typeof(DomainToModel));
 
             // Repositories
             services.AddScoped<IProductRepository, ProductRepository>();
@@ -38,7 +39,16 @@ namespace IStorage.Infra.IoC
             services.AddScoped<IWarehouseRepository, WarehouseRepository>();
 
             // Services
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IInventoryService, InventoryService>();
+            services.AddScoped<IMaterialService, MaterialService>();
+            services.AddScoped<IMaterialProductService, MaterialProductService>();
+            services.AddScoped<IMovementService, MovementService>();
+            services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductOrderService, ProductOrderService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IWarehouseService, WarehouseService>();
 
             return services;
         }
