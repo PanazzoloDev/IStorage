@@ -3336,11 +3336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.WebAPI\\IStorage.WebAPI.csproj",
+      "projectUniqueName": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.WebAPI\\IStorage.WebAPI.csproj",
       "projectName": "IStorage.WebAPI",
-      "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.WebAPI\\IStorage.WebAPI.csproj",
+      "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.WebAPI\\IStorage.WebAPI.csproj",
       "packagesPath": "C:\\Users\\WesleyPanazzolo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.WebAPI\\obj\\",
+      "outputPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WesleyPanazzolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3357,8 +3357,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Infra.IoC\\IStorage.Infra.IoC.csproj": {
-              "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Infra.IoC\\IStorage.Infra.IoC.csproj"
+            "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Infra.IoC\\IStorage.Infra.IoC.csproj": {
+              "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Infra.IoC\\IStorage.Infra.IoC.csproj"
             }
           }
         }

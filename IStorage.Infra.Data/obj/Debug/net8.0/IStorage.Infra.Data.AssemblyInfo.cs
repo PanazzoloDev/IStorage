@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IStorage.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c2892886ddd4466748884d213eee2cdc9e0adc1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61cab2a9528d78f100b00376e02660c96bd250ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("IStorage.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IStorage.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
