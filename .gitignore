@@ -10,3 +10,12 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Ignorar todas as pastas bin e obj
+**/bin
+**/obj
+*.dll
+*.cache
+*.pdb
+*.editorconfig
+*.exe
