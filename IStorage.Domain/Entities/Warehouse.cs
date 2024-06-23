@@ -25,10 +25,10 @@ namespace IStorage.Domain.Entities
 
         [Required]
         [Column("Excluido")]
-        public bool Deleted { get; set; }
+        public bool Deleted { get; set; } = false;
 
         [Required]
         [Column("CriadoEm")]
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

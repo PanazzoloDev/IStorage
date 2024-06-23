@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
-                "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj"
+              "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
+                "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
+    "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
         "projectName": "IStorage.Domain",
-        "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
+        "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj",
         "packagesPath": "C:\\Users\\WesleyPanazzolo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\obj\\",
+        "outputPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WesleyPanazzolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,8 +158,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
-                "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj"
+              "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
+                "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj"
               }
             }
           }
@@ -235,8 +235,8 @@
               "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Application\\IStorage.Application.csproj": {
                 "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Application\\IStorage.Application.csproj"
               },
-              "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
-                "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj"
+              "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj": {
+                "projectPath": "c:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Domain\\IStorage.Domain.csproj"
               },
               "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Infra.Data\\IStorage.Infra.Data.csproj": {
                 "projectPath": "C:\\Users\\WesleyPanazzolo\\Desktop\\Projetos\\IStorage\\IStorage.Infra.Data\\IStorage.Infra.Data.csproj"

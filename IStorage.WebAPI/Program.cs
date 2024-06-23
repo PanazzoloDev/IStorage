@@ -1,9 +1,9 @@
 using IStorage.Infra.IoC;
-using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddInfraestructure(builder.Configuration);
 builder.Services.AddSwaggerGen();
+
 //builder.Services.AddSwaggerGen(c =>
 //{
 //    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -29,6 +29,7 @@ builder.Services.AddSwaggerGen();
 //        }
 //    });
 //});
+
 builder.Services.AddControllers();
 
 var app = builder.Build();

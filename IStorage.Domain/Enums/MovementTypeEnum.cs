@@ -9,16 +9,16 @@ namespace IStorage.Domain.Enums
         /// Movimentos de entrada
         /// Ex.: Compras
         /// </summary>
-        Entry = 1,
+        Entry = 'E',
         /// <summary>
         /// Movimentos de saída
         /// Ex.: Consumo
         /// </summary>
-        Outgoing = 2,
+        Outgoing = 'S',
         /// <summary>
         /// Movimentos de transferencias
         /// Ex.: Reservas2
         /// </summary>
-        Transference = 3,
+        Transference = 'T',
     }
 }

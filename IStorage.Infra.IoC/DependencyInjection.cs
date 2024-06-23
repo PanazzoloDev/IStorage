@@ -19,8 +19,7 @@ namespace IStorage.Infra.IoC
         {
             // Contexto
             services.AddDbContext<IStorageDbContext>(options =>
-                options.UseSqlServer(config.GetConnectionString("DefaultConnection"),
-                b => b.MigrationsAssembly(typeof(IStorageDbContext).Assembly.FullName)
+                options.UseSqlServer(config.GetConnectionString("DefaultConnection")
             ));
 
             // AutoMapper

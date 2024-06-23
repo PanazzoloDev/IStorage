@@ -19,7 +19,7 @@ namespace IStorage.Infra.Data.Repositories
         public async Task<T> CreateAsync(T entity)
         {
             _dbSet.Add(entity);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
             return entity;
         }
 

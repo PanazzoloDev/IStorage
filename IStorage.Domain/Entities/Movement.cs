@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using IStorage.Domain.Enums;
 
 namespace IStorage.Domain.Entities
 {
@@ -21,7 +22,7 @@ namespace IStorage.Domain.Entities
         [Required]
         [StringLength(1)]
         [Column("Tipo")]
-        public string Type { get; set; }
+        public MovementTypeEnum Type { get; set; }
 
         [Column("AlmoxOrigemId")]
         public long? SourceWarehouseId { get; set; }

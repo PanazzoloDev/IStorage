@@ -32,17 +32,17 @@ namespace IStorage.Domain.Entities
 
         [Required]
         [Column("CriadoEm")]
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         [Required]
         [Column("Excluido")]
-        public bool Deleted { get; set; }
+        public bool Deleted { get; set; } = false;
 
         [Column("Prazo")]
         public DateTime? Deadline { get; set; }
 
         [Required]
         [Column("Status")]
-        public int Status { get; set; }
+        public OrderStatusEnum Status { get; set; }
     }
 }
