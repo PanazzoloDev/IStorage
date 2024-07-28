@@ -5,10 +5,12 @@ interface filterPanelContainerProps {
 }
 
 const FilterPanelContainer = styled.div<filterPanelContainerProps>`
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background-color: #eb3f24;
-    width: ${props => props.open? '300px' : '50px'};
-    max-width: 50vw;
+    width: ${props => props.open? '380px;' : '80px;'};
+    transition: 1s;
 `
 
 export {
