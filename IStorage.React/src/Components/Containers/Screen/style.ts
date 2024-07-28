@@ -9,7 +9,7 @@ const ScreenContainer = styled.div`
 
 const ContentScreen = styled.main`
     flex: 1;
-    overflow-y: auto;
+    //overflow-y: auto;
     display: flex;
     flex-direction: row;
 `

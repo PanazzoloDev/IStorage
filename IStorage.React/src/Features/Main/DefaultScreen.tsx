@@ -26,6 +26,7 @@ const MainScreen = () => {
                 display: 'flex',
                 flexDirection: 'row',
                 flexWrap: 'wrap',
+                overflowY: 'scroll',
                 justifyContent: 'center'
             }}>
                 {testData.map((x, i) => 

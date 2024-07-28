@@ -13,7 +13,7 @@ const FilterPanel = () => {
             open={opened}
         >
             <button children="==" onClick={onChangeFilterPanel}/>
-            ○testeTESTEW
+            
         </FilterPanelContainer>
     )
 }
