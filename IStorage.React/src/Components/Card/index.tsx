@@ -1,28 +1,32 @@
-import { CardContainer } from "./style";
+import currencyConverter from "../CurrencyConverter";
+import { CardContainer, CardImage, CardValue, CardValues } from "./style";
 
 interface cardProps {
     image?: string,
-    value?: number,
+    value: number,
+    oldValue?: number,
     description: string
 }
 
 const Card = (props: cardProps) => {
+
     return(
         <CardContainer>
-            <img 
-                style={{
-                    height: '80%',
-                    maxHeight: '150px',
-                    padding: '10px',
-                }}
+            <CardImage 
                 src={props.image}
                 alt="Produto"
             />
             {props.description}
-            <br/>
-            <strong>
-                R${props.value}
-            </strong>
+            <CardValues>
+                <span style={{padding: '0px 10px'}}>
+                    <s>
+                        {currencyConverter(props.oldValue)}
+                    </s>
+                </span>
+                <CardValue discount={props.oldValue != undefined}>
+                    {currencyConverter(props.value)}
+                </CardValue>
+            </CardValues>
         </CardContainer>
     )
 }

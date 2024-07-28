@@ -1,11 +1,12 @@
 import { Card, cardProps } from "../../Components/Card";
+import CardsContainer from "../../Components/Containers/CardsContainer";
 import FilterPanel from "../../Components/Containers/FilterPanel";
 import Screen from "../../Components/Containers/Screen";
 
 const testData = Array<cardProps>(
+    {image: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Brazilian_pastel.jpg', value: 10.90, oldValue: 16.20, description:'Pastel'},
     {image: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Brazilian_pastel.jpg', value: 10.90, description:'Pastel'},
-    {image: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Brazilian_pastel.jpg', value: 10.90, description:'Pastel'},
-    {image: 'https://www.minhareceita.com.br/app/uploads/2022/12/Dpizza-de-pepperoni-caseira-portal-minha-receita.jpg', value: 29.90, description:'Pizza'},
+    {image: 'https://www.minhareceita.com.br/app/uploads/2022/12/Dpizza-de-pepperoni-caseira-portal-minha-receita.jpg', value: 29.90, oldValue: 16.20, description:'Pizza'},
     {image: 'https://www.minhareceita.com.br/app/uploads/2022/12/Dpizza-de-pepperoni-caseira-portal-minha-receita.jpg', value: 29.90, description:'Pizza'},
     {image: 'https://www.minhareceita.com.br/app/uploads/2022/12/Dpizza-de-pepperoni-caseira-portal-minha-receita.jpg', value: 29.90, description:'Pizza'},
     {image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1280px-A_small_cup_of_coffee.JPG', value: 25.00, description:'Café'},
@@ -22,22 +23,17 @@ const MainScreen = () => {
     return (
         <Screen>
             <FilterPanel/>
-            <div style={{
-                display: 'flex',
-                flexDirection: 'row',
-                flexWrap: 'wrap',
-                overflowY: 'scroll',
-                justifyContent: 'center'
-            }}>
+            <CardsContainer>
                 {testData.map((x, i) => 
                     <Card
                         key={i}
                         value={x.value}
+                        oldValue={x.oldValue}
                         image={x.image}
                         description={x.description}
                     />
                 )}
-            </div>
+            </CardsContainer>
         </Screen>
     )
 }
